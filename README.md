@@ -35,7 +35,7 @@ The **AI Career Coach** notebook simplifies tech hiring preparation. Instead of 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * **JSON Enforced Parsing:** Uses high-speed LLM integration parameters with strict JSON execution tracking to dynamically structure profile details.
 * **Vector Vectorbase Indexing:** Bypasses basic keyword matching by analyzing the contextual semantic meaning of text segments via an Inner Product (`FlatIP`) FAISS space.
@@ -45,7 +45,7 @@ The **AI Career Coach** notebook simplifies tech hiring preparation. Instead of 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Generative Large Language Model:** Google Gemini 2.5-Flash (via `google-generativeai`)
 * **Embedding Model Vectorizer:** Hugging Face `sentence-transformers` (`all-MiniLM-L6-v2`)
@@ -56,31 +56,31 @@ The **AI Career Coach** notebook simplifies tech hiring preparation. Instead of 
 
 ---
 
-## 📊 Notebook Architecture & Cell Layout
+##  Notebook Architecture & Cell Layout
 
 The `AI_Career_Coach.ipynb` notebook is organized into **11 sequential blocks** designed to run systematically from top to bottom:
 
 | Cell # | Type | Name / Content | Purpose |
 | :--- | :--- | :--- | :--- |
-| **Cell 1** | 📝 Markdown | **Documentation & TOC** | Introduction badges, system summary, and the structural Table of Contents. |
-| **Cell 2** | 💻 Code | **Dependency Installation** | Automatically runs `%pip install` for Gemini, FAISS, Gradio, Matplotlib, and Rich. |
-| **Cell 3** | 💻 Code | **Imports & Configuration** | Loads standard libraries, configures the `all-MiniLM-L6-v2` embedding engine, and maps API environment keys. |
-| **Cell 4** | 💻 Code | **Data Structures & Mock Jobs** | Establishes the core class layouts (`ResumeData`, `JobListing`) and seeds the baseline target job matrix. |
-| **Cell 5** | 💻 Code | **Resume Parser (Gemini)** | Leverages Gemini's structured schema outputs to transform text strings into valid JSON formats. |
-| **Cell 6** | 💻 Code | **FAISS Job Matcher** | Compiles local semantic vector models to map candidate attributes against target jobs. |
-| **Cell 7** | 💻 Code | **Skill Gap Analyzer** | Performs mathematical set arithmetic to evaluate overlaps and generates Matplotlib analytics plots. |
-| **Cell 8** | 💻 Code | **AI Career Coach Agent** | The central orchestration hub managing the internal subsystems and maintaining chatbot state memory threads. |
-| **Cell 9** | 💻 Code | **Demo & Evaluation** | Validates the background logic end-to-end using a custom internal plain-text profile sample profile. |
-| **Cell 10** | 📝 Markdown | **Project Summary Matrix** | A quick reference matrix showing components, tools, and developer next-step priorities. |
-| **Cell 11** | 💻 Code | **Gradio Interactive UI** | Launches the browser-accessible interface containing separate interactive analysis panels and the chatbot console. |
+| **Cell 1** |  Markdown | **Documentation & TOC** | Introduction badges, system summary, and the structural Table of Contents. |
+| **Cell 2** |  Code | **Dependency Installation** | Automatically runs `%pip install` for Gemini, FAISS, Gradio, Matplotlib, and Rich. |
+| **Cell 3** |  Code | **Imports & Configuration** | Loads standard libraries, configures the `all-MiniLM-L6-v2` embedding engine, and maps API environment keys. |
+| **Cell 4** |  Code | **Data Structures & Mock Jobs** | Establishes the core class layouts (`ResumeData`, `JobListing`) and seeds the baseline target job matrix. |
+| **Cell 5** |  Code | **Resume Parser (Gemini)** | Leverages Gemini's structured schema outputs to transform text strings into valid JSON formats. |
+| **Cell 6** |  Code | **FAISS Job Matcher** | Compiles local semantic vector models to map candidate attributes against target jobs. |
+| **Cell 7** |  Code | **Skill Gap Analyzer** | Performs mathematical set arithmetic to evaluate overlaps and generates Matplotlib analytics plots. |
+| **Cell 8** |  Code | **AI Career Coach Agent** | The central orchestration hub managing the internal subsystems and maintaining chatbot state memory threads. |
+| **Cell 9** |  Code | **Demo & Evaluation** | Validates the background logic end-to-end using a custom internal plain-text profile sample profile. |
+| **Cell 10** |  Markdown | **Project Summary Matrix** | A quick reference matrix showing components, tools, and developer next-step priorities. |
+| **Cell 11** |  Code | **Gradio Interactive UI** | Launches the browser-accessible interface containing separate interactive analysis panels and the chatbot console. |
 
 ---
 
-## ⚙️ Installation & Local Setup
+##  Installation & Local Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/AI_Career_Coach.git](https://github.com/yourusername/AI_Career_Coach.git)
+git clone [https://github.com/divya-09nimbalkar/AI_Career_Coach.git](https://github.com/divya-09nimbalkar/AI_Career_Coach.git)
 cd AI_Career_Coach
 
 ```
