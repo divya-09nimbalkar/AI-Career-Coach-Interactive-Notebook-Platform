@@ -117,7 +117,7 @@ os.environ["GEMINI_API_KEY"] = "sk-ant-api03-YourSecretKeyHere..."
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open your terminal or workspace environment inside your virtual environment.
 2. Launch your Jupyter interface server:
@@ -133,7 +133,7 @@ jupyter notebook
 
 ---
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 AI_Career_Coach/
@@ -144,7 +144,7 @@ AI_Career_Coach/
 
 ```
 
-## 📄 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` inside the repository root for further usage documentation allowances.
 
