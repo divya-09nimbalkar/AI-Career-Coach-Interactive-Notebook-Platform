@@ -1,6 +1,6 @@
 
 ```markdown
-# 🎯 AI Career Coach — Interactive Notebook Platform
+#  AI Career Coach — Interactive Notebook Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5--flash-blueviolet.svg)](https://aistudio.google.com/)
@@ -8,11 +8,11 @@
 [![Gradio](https://img.shields.io/badge/Interface-Gradio--UI-orange.svg)](https://gradio.app)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> 🚀 A complete, end-to-end intelligent career guidance ecosystem built entirely within a single interactive Jupyter Notebook. It features AI-powered resume parsing, semantic vector job matching and a multi-turn coaching chatbot window. Powered by Google Gemini 2.5-Flash, FAISS, and wrapped in an interactive web application framework using Gradio.
+>  A complete, end-to-end intelligent career guidance ecosystem built entirely within a single interactive Jupyter Notebook. It features AI-powered resume parsing, semantic vector job matching and a multi-turn coaching chatbot window. Powered by Google Gemini 2.5-Flash, FAISS, and wrapped in an interactive web application framework using Gradio.
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 The **AI Career Coach** notebook simplifies tech hiring preparation. Instead of manually cross-referencing capabilities against job profiles, this application provides:
 1. **Structured Profile Extraction:** Instantly translates unformatted, plain-text resumes into organized JSON data maps via Gemini's native structural output controls.
